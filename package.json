@@ -1,0 +1,26 @@
+{
+    "name": "js.gui",
+    "version": "0.0.1",
+    "description": "Quick and simple GUI for your prototypes and tech demos",
+    "keywords": [
+        "gui", "ui", "prototype", "demo"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "Austin Steeno"
+    },
+    "main": "build/js.gui.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/endain/js.gui.git"
+    },
+    "scripts": {
+        "rollup": "rollup --config rollup.iife.js & rollup --config rollup.amd.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "rollup": "0.33",
+        "rollup-plugin-uglify": "1.0.1",
+        "uglify-js2": "2.1.11"
+    }
+}

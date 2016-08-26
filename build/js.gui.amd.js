@@ -1,0 +1,1 @@
+define("gui",function(){"use strict";function n(){}function t(){}n.prototype.add=function(){};var o={Controller:n,Checkbox:t};return o})
